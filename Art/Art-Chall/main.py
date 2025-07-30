@@ -23,7 +23,7 @@ def cleanup():
 
 def create_flag():
     random_flag = os.urandom(16).hex() 
-    open('../flag.txt', 'w').write(f"flag{{{random_flag}}}\n")
+    open('../flag.txt', 'w').write(f"geo{{{random_flag}}}\n")
 
 atexit.register(cleanup)
 
