@@ -1,0 +1,13 @@
+### Documentation
+
+## Checklist
+
+1. Add API-keys
+2. Hide the documentation page
+
+## Routes
+
+/api/add => add new image in a POST request with 'file' form attribute 
+/api/list => lists all possible images to switch to (Basic GET request)
+/api/switch => switch to new image with 'new_name' form attribute
+/api/emergency-restart => restarts everything to default
